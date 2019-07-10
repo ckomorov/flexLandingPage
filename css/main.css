@@ -117,4 +117,89 @@ GALLERY
 
 ************************************ */
 
+#gallery {
+	background-color: #eee;
+}
+
+#gallery-header {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 3.8vw;
+}
+
+.line-img {
+	height: 40vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.img-address p{
+	margin-bottom: 3.9vh;
+}
+
+.img-address a{
+	text-decoration: none;
+	color: #00aaef;
+}
+
+#img01 {
+	width: 49vw;
+	background-image: url("../img/gallery/gallery01.png");
+}
+
+#img02 {
+	width: 23vw;
+	background-image: url("../img/gallery/gallery02.png");
+}
+
+#img03 {
+	width: 36vw;
+	background-image: url("../img/gallery/gallery03.png");
+}
+
+#img04 {
+	width: 36vw;
+	background-image: url("../img/gallery/gallery04.png");
+}
+
+#img05 {
+	width: 23vw;
+	background-image: url("../img/gallery/gallery05.png");
+}
+
+#img06 {
+	width: 49vw;
+	background-image: url("../img/gallery/gallery06.png");
+}
+
+#gallery-button {
+	width: 100%;
+	height: 20vh;
+	text-align: center;
+
+}
+
+.button {
+	height:  6.5vh;
+	width: 15vw;
+	color: #fff;
+	background-color: #00aaef;
+	font-size: 1.8vh;
+	border: 3px solid #00aaef;
+}
+
+.button:hover {
+	background: #FFF;
+	color: #00aaef;
+	border: 3px solid #00aaef;
+}
+
+
+/* **********************************
+
+CONSULTATION
+
+************************************ */
 
