@@ -1,0 +1,120 @@
+
+html {
+
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a, a:hover, button, button:hover {
+	transition: all 200ms linear;
+	cursor: pointer;
+}
+
+body {
+	background-color: #FFF;
+	font-family: Arial, "sans-serif";
+	font-size: 1.26vmax;
+	line-height: 1.9vmax;
+	color: #323232;
+}
+
+.container {
+	width: 75vw;
+	margin: 0 auto;
+	position: relative;
+}
+
+.blue {
+	color: #00aaef;
+}
+
+/* **********************************
+
+HEADER
+
+************************************ */
+
+header {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	background-image: url("../img/header01.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff;
+	padding-top: 7vh;
+	padding-bottom: 8vh;
+}
+
+#top-header {
+	height: 10vh;
+	overflow: hidden;
+	color: #777b96;
+}
+
+
+#logo {
+	width: 15vh;
+}
+
+#call {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+nav li {
+	list-style: none;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+}
+
+/* **********************************
+
+ABOUT
+
+************************************ */
+
+
+#about {
+	width: 100%;
+	padding-top: 18vh;
+	padding-bottom: 22vh;
+}
+
+#about-info {
+	width: 30vw;
+	font-size: 3.8vw;
+	text-transform: uppercase;
+}
+
+#about-text {
+	width: 44vw;
+	padding-right: 1.5vw;
+}
+
+#about-text ol {
+	margin: 6vh 0;
+	padding-left: 0;
+	padding-right: 13vw;
+}
+
+#about-text ol li {
+	margin-bottom: 1.18vh;
+
+}
+
+
+
+/* **********************************
+
+GALLERY
+
+************************************ */
+
+
