@@ -279,3 +279,62 @@ CONSULTATION
 TESTIMONIALS
 
 ************************************ */
+#testimonials {
+	background-color: #eee;
+	
+}
+
+.testim-block {
+	width: 23vw;
+	height: 61.4vh;
+	margin-bottom: 8vh;
+}
+
+.testim-img {
+	width: 23vw;
+	height: 21.5vh;
+}
+
+.testim-img img {
+	width: 11.62vw;
+	height: 11.62vw;
+	border-radius: 11.62vw;
+	padding-left: -10vw;
+}
+
+.sign {
+	font-size: 10vw;
+}
+
+.testim-title {
+	width: 23vw;
+	height: 8.5vh;
+	margin-bottom: 2vh;
+}
+
+.testim-title h3 {
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.testim-title h4 {
+	font-weight: 400;
+	font-style: italic;
+	color: #696973;
+	margin-top: 0;
+}
+
+.testim-title h3, 
+.testim-title h4 {
+	font-size: 1.26vw;
+	text-align: center;
+}
+
+.testim-text {
+	width: 23vw;
+	height: 13vh;
+	text-align: center;
+	font-size: 1.20vw;
+	
+}
+
