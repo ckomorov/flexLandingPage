@@ -30,6 +30,38 @@ body {
 	color: #00aaef;
 }
 
+.title {
+	margin: 0 auto;
+	z-index: 5;
+	width: fit-content;
+	position: relative;
+	top: -2.6vh;
+	margin-bottom: 8vh;
+}
+
+.title h2 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 3.8vw;
+	color: #323232;
+	line-height: 2.84vw;
+	margin: 0;
+	margin-bottom: 1.22vh;
+	font-weight: 400;
+}
+
+.dec-svg {
+	color: #00aaef;
+	width: 3vw;
+	margin: 0 0.8vw;
+}
+
+.title-line {
+	background-color: #00aaef;
+	width: 100%;
+	height: 0.2vh;
+}
+
 /* **********************************
 
 HEADER
@@ -121,13 +153,6 @@ GALLERY
 	background-color: #eee;
 }
 
-#gallery-header {
-	text-align: center;
-	text-transform: uppercase;
-	font-family: 'Ubuntu Mono', monospace;
-	font-size: 3.8vw;
-}
-
 .line-img {
 	height: 40vh;
 	background-repeat: no-repeat;
@@ -203,3 +228,54 @@ CONSULTATION
 
 ************************************ */
 
+
+#consult-head {
+	margin-top: -90px;
+}
+
+#consult-block {
+	margin-top: 12.5vh;
+	margin-bottom: 20vh;
+}
+
+#consult-info {
+	width: 36vw;
+}
+
+#consult-info h2{
+	font-size: 3.5vw;
+	font-weight: 300;
+	margin: 1.1vh 0;
+	line-height: 3.5vw;
+}
+
+#consult-info-text {
+	margin-top: 5.75vh;
+}
+
+#consult-form {
+	width: 30vw;
+	height: 18.9vw;
+}
+
+.consult-input {
+	width: 100%;
+	height: 6.8vh;
+	text-align: center;
+	background-color: #eee;
+	color: #393939;
+	border: 0;
+	font-size: 1.1vw;
+	margin: 0.78vw 0;
+}
+
+#consult-button {
+	width: 100%;
+	margin-top: 0.78vw;
+} 
+
+/* **********************************
+
+TESTIMONIALS
+
+************************************ */
